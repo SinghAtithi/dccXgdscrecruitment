@@ -12,6 +12,9 @@ body {
   top: 30px;
   left: 30px;
 }
+.mobile-text{
+  display: none;
+}
 
 .loader {
   margin-top: 20px;
@@ -79,4 +82,28 @@ li {
 
 .card:hover + .card_text {
    display: block; 
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-text{
+    display: block;
+    font-size: 4rem !important;
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 2rem;
+  }
+  .container{
+    display: none;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo{
+    top: 10px;
+    left: 0;
+  }
 }
