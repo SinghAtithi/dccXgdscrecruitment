@@ -9,8 +9,11 @@ body {
 }
 
 .logo {
-  top: 30px;
+  top: -20px;
   left: 30px;
+}
+.logo>img{
+  height: 240px !important;
 }
 .mobile-text{
   display: none;
@@ -103,7 +106,7 @@ li {
     width: 100%;
   }
   .logo{
-    top: 10px;
+    top: -30px;
     left: 0;
   }
 }
