@@ -1,3 +1,4 @@
 # dsc_challenge
-Recruitment Challenge for DSC NITA 2022
+
+Recruitment Challenge for DCC-GDSC NITA 2022
 Happy Cheating
